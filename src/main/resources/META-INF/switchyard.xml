@@ -53,6 +53,6 @@
     </sca:component>
   </sca:composite>
   <sy:transforms>
-     <transform.java xmlns="urn:switchyard-config:transform:1.1" class="com.tvcable.ec.workorder.Transformers" from="{http://soap.integration.fsm.comarch.com/CloseWorkOrder/}CloseWorkOrder" to="java:com.tvcable.ec.workorder.services.close.CloseWorkOrder"/>
+      <transform:transform.jabx from="{http://soap.integration.fsm.comarch.com/CloseWorkOrder/}CloseWorkOrder" to="java:com.tvcable.ec.workorder.services.close.CloseWorkOrder" contextPath="com.tvcable.ec.workorder.services.close"/>
   </sy:transforms>
  </sy:switchyard>
